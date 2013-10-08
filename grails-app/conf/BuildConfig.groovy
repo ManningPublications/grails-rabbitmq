@@ -1,6 +1,8 @@
 grails.project.class.dir = "target/classes"
 grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir	= "target/test-reports"
+grails.project.repos.manningRepo.url = "http://nexus.manning.com/content/repositories/thirdparty/"
+grails.project.repos.default = "manningRepo"
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
